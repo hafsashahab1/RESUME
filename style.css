@@ -56,7 +56,7 @@
   right: -5px;
   bottom: -5px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #ffb3ba, #ffdfba, #f1cbe5, #baffc9);
+  background: linear-gradient(-45deg, #feb3ff, #c1baff, #f1cbe5, #baffc9);
   z-index: -1;
   animation: gradientAnimation 10s infinite, borderAnimation 5s infinite alternate;
   background-size: 400% 400%;
@@ -86,6 +86,9 @@
 
 
     .name{
+
+
+      
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -99,3 +102,36 @@
       font-size: 30px;
       margin: 0 10px;
     }
+    .resume-left-bar {
+     
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+       /* Right Bar */
+       .resume-right-bar {
+      
+        padding: 30px;
+        margin-bottom: 30px;
+    
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      } 
+
+      .skill {
+        margin-bottom: 10px;
+      }
+      
+      .skill-bar {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        height: 10px; /* Adjust the height of the bar */
+        overflow: hidden;
+      }
+      
+      .skill-level {
+        height: 100%;
+        background-color: #f700ff; /* Change the color as needed */
+      }
+      
